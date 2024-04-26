@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 
 
 function Read() {
@@ -5,7 +6,8 @@ function Read() {
   return (
 
     <>
-      <h1>Home</h1>
+      <Link to="/Create">Create</Link><br />
+      <Link to="/Read">Read</Link>
     </>
   )
 }

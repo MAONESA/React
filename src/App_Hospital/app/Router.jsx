@@ -9,9 +9,10 @@ const Router = () => (
     <Layout>
       <Routes>
         <Route index element={<Home />} />
-        <Route path="/Read" element={<Read />} />
-        <Route path="/Create" element={<Create />} />
-        <Route path="/Delete" element={<Delete />} />
+
+        <Route path="/read" element={<Read />} />
+        <Route path="/create" element={<Create />} />
+        <Route path="/delete/:id" element={<Delete />} />
         { /* Es muy recomendable añadir esta ruta para obtener un mensaje de error en el caso de que la ruta no exista. De lo contrario, si la ruta no existe llegaremos a una página en blanco */}
         <Route path="*" element={<div>404</div>} />
       </Routes>
