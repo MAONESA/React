@@ -1,6 +1,6 @@
 // import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App_Hospital/App'
+import App from './App_Libros/App'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   // <React.StrictMode>
